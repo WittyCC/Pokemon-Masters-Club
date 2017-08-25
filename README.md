@@ -1,4 +1,6 @@
-# PokemonMastersClub
+# Pokemon Masters Club
+
+#### By _**Witty Chang**_
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
@@ -26,3 +28,62 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Planning
+
+1. Configuration/Dependencies
+  * TypeScript to make code more maintainable
+  * Angular CLI to automatically generate necessary initial files for project
+  * Use of client side model-view-components for framework (Angular 2).
+  * Node.js modules for operation
+  * Bower components
+  * Implementation of a router to navigate between different views within the application
+  * Firebase cloud service to store and manage information in real time
+
+2. Specs
+  * Please see program specifications below.
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass etc.
+  * Develop custom style
+
+5. Polish
+  * Add styling for web page
+  * Make README awesome
+
+## Prerequisites
+
+You will need the following items properly installed on your device.
+
+* [Atom](https://atom.io/)
+* [Node.js](https://nodejs.org/) (with NPM)
+* [TypeScript](https://www.typescriptlang.org/)
+* [Bower](https://bower.io/)
+* Web browser software application of your choice (e.g. Google Chrome, Mozilla Firefox, etc.)
+
+## Technologies Used
+
+* Angular CLI
+* Atom
+* Bower
+* Firebase cloud service
+* Google Chrome
+* Node Package Manager
+* TypeScript
+
+## Support and Contact Details
+
+Please feel free to contact wcc1213@gmail.com if you have any questions, issues, concerns, comments or suggestions.
+
+### License
+
+_Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
+
+_The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software._
+
+_THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE._
+
+Copyright (c) 2017 **_Witty Chang_**
