@@ -8,12 +8,14 @@ import { routing } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ClubrosterComponent } from './clubroster/clubroster.component';
+import { MemberDetailComponent } from './member-detail/member-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
-    ClubrosterComponent
+    ClubrosterComponent,
+    MemberDetailComponent
   ],
   imports: [
     BrowserModule,
