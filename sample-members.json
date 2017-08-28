@@ -1,0 +1,17 @@
+{ "members": [{
+    "name": "Ash Ketchum",
+    "gender": "Male",
+    "affiliation": "Team Valor (Red)",
+    "level": 35
+    }, {
+    "name": "Misty",
+    "gender": "Female",
+    "affiliation": "Team Mystic (Blue).",
+    "level": 32
+      }, {
+    "name": "Brock",
+    "gender": "Male",
+    "affiliation": "Team Instinct (Yellow).",
+    "level": 34
+  }]
+}
