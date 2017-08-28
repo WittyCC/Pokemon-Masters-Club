@@ -54,6 +54,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
   * Add styling for web page
   * Make README awesome
 
+## Specifications
+|Behavior|Input|Output|
+|---|---|---|
+|User (admin) registers a new member to the club registry|Name: "Yuniko Kōzuki"; Gender: "Female"; Affiliation: Prominence; Level: 90| Member is registered and added to the database|
+|User views a list of all current club members|Click 'Club Roster'|List showing all current club members|
+|User (admin) edits the details of a registered club member|Edit profile of Kuroyukihime after leveling up|Edit Kuroyukihime's level from 99 to 100 and save changes to database|
+|User (admin) deletes a member who no longer wants to be a part of the club|Delete profile of Misty because she now wants to devote all her time to her water Pokemon|Member Misty is deleted and her profile is removed from the database|
+
 ## Prerequisites
 
 You will need the following items properly installed on your device.
