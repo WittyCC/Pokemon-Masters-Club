@@ -1,7 +1,7 @@
 <h1>Club Roster</h1>
 
-<div *ngFor="let member of members | async" (click)="goToDetailPage(member)" class="panel panel-default">
+<div *ngFor="let member of members | async" class="ppl panel panel-default">
   <div class="panel-body">
-    <h3><em>{{member.name}}</em> from {{member.affiliation}}</h3>
+    <h3 (click)="goToDetailPage(member)"><em>{{member.name}}</em> from {{member.affiliation}}</h3>
   </div>
 </div>

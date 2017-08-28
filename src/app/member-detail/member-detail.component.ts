@@ -26,7 +26,7 @@ export class MemberDetailComponent implements OnInit {
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
-      this.memberId = parseInt(urlParameters['id']);
+      this.memberId = urlParameters['id'];
     });
 
     this.memberService.getMemberById(this.memberId).subscribe(dataLastEmittedFromObserver => {
@@ -40,5 +40,4 @@ export class MemberDetailComponent implements OnInit {
   goToClubroster() {
     this.router.navigate(['roster']);
   };
-
 }
