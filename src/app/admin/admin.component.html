@@ -27,7 +27,11 @@
         <br>
         <input #newLevel>
       </div>
-      <button (click)="submitForm(newName.value, newGender.value, newAffiliation.value, newLevel.value)">Register</button>
+      <button (click)="submitForm(newName.value, newGender.value, newAffiliation.value, newLevel.value); newName.value=''; newGender.value=''; newAffiliation.value=''; newLevel.value=''">Register</button>
     </div>
   </div>
+</div>
+
+<div>
+  <app-clubroster></app-clubroster>
 </div>
